@@ -12,6 +12,7 @@ namespace MauiSample
         {
             Children.Add(new AppShell() { Title = "Shell"});
             Children.Add(new CodeBehindMainPage() { Title = "NoShell" });
+            Children.Add(new OnlySkiaSharpMainPage() { Title = "NoShell-Skia" });
         }
     }
 }
